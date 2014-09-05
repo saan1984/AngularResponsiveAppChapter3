@@ -4,6 +4,7 @@
     <option name="defaultSettings" value="true" />
     <option name="enableJSFormatting" value="true" />
     <option name="enableJavaFormatting" value="false" />
+    <option name="formatter" value="ECLIPSE" />
     <option name="id" value="1408820041469" />
     <option name="name" value="default" />
   </component>

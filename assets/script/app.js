@@ -4,20 +4,13 @@ angular.module('profileApp',[
     'ngRoute',
     'ngResource',
     'profileApp.profileController',
-    'profileApp.profileServices',
-    'profileApp.deviceTypeProvider'
+    'profileApp.profileServices'
 ])
 
-.config(['$routeProvider','deviceTypeProvider',
-       function($routeProvider,deviceTypeProvider) {
-
-        var deviceTypeProvider = deviceTypeProvider.$get(),
-            deviceType = deviceTypeProvider.getDeviceType();
-
-        /*Route to Desktop view*/
+.config(['$routeProvider',
+       function($routeProvider) {
         $routeProvider.when('/',{
-            templateUrl: 'view/'+deviceType+'/profileTemplate.html',
-            controller: 'ProfileController',
-            styleType:deviceType
+            templateUrl: 'view/profileTemplate.html',
+            controller: 'ProfileController'
         });
   }]);
