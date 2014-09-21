@@ -1,13 +1,11 @@
 'use strict';
 angular.module("profileApp.profileController", [])
-
-.controller('ProfileController', function ($scope, $rootScope, $route, ProfileServices,$log) {
+.controller('ProfileController',
+    function ($scope, $rootScope, $route, ProfileServices,$log) {
 
     var professionalDetail = ProfileServices.getProfessionalDetail(),
 
         personalDetail = ProfileServices.getPersonalDetail();
-
-    $rootScope.styleType = $route.current.styleType;
 
     $scope.professional = {};
 
