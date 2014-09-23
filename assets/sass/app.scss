@@ -5,6 +5,7 @@ body {
   font-size: 20px;
   font-weight: 300;
   padding: 1rem 2rem;
+
   .my-profile-container {
     background: white;
     width: 100%;
@@ -14,11 +15,23 @@ body {
       .pic {
         text-align: center;
         padding: 0 0 20px;
-        .name {
-          font-weight: 100;
-          text-align: center;
-          background: #eee;
+        .largeDevice{
           color: green;
+          font-size: 4rem;
+          background: #eee;
+          font-weight: 100;
+        }
+        .mediumDevice{
+          color: green;
+          font-size: 2rem;
+          background: #eee;
+          font-weight: 100;
+        }
+        .smallDevice{
+          color: green;
+          font-size: 1rem;
+          background: #eee;
+          font-weight: 300;
         }
         .profile-image {
           border-radius: 100%;
@@ -55,9 +68,11 @@ body {
             display: flex;
             .divider {
               width: 50%;
+              margin-right:10px;
               h4 {
                 font-weight: 300;
                 color: green;
+                margin:0px;
               }
             }
           }
@@ -65,10 +80,45 @@ body {
           position: relative;
           .aboutme {
             &:first-letter {
-              font-size: 25px;
-              color: green;
+              color:green;
+            }
+            &.smallPara{
+              font-size: 0.8rem;
+              &:first-letter {
+                font-size: 1.6rem;
+              }
+            }
+            &.mediumPara{
+              font-size: 1.2rem;
+              &:first-letter {
+                font-size: 3rem;
+              }
+            }
+            &.largePara{
+              font-size: 2rem;
+              &:first-letter {
+                font-size: 4rem;
+              }
             }
           }
+          .item-list-container{
+            ol{
+              margin-bottom: 2px;
+              font-size:1rem;
+              .smallText{
+                font-size:0.8rem;
+              }
+            }
+
+            .show-more{
+              background: none;
+              border: none;
+              cursor: pointer;
+              color:blue;
+              margin-left:10px;
+            }
+          }
+
         }
       }
       .footer {

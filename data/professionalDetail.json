@@ -1,11 +1,11 @@
 {
     "aboutme":"I, Sandeep Kumar Patel, am a web developer and blogger living in Bangalore India.I have many years of experience in creating web applications both using custom and popular JavaScript libraries and frameworks such as AngularJS and YUI.",
     "years":4,
-    "roles":["Web Developer", "JavaScript Developer", "Front End Lead"],
-    "languages":["JavaScript", "Java"],
-    "webdevelopment":["HTML5","CSS3","AngularJS","Jquery","BootStrap","YUI"],
-    "tools":["SASS","COMPASS","GRUNT","GIT"],
-    "ides":["WebStorm", "Intelij Idea", "Eclipse"],
+    "roles":["Web Developer", "JavaScript Developer", "Front End Lead","Java Developer"],
+    "languages":["JavaScript", "Java", "Python", "C#","Ruby"],
+    "webdevelopment":["HTML5","CSS3","AngularJS","Jquery","BootStrap","YUI", "Polymer"],
+    "tools":["SASS","COMPASS","GRUNT","GIT","GULP","BOWER","YEOMAN"],
+    "ides":["WebStorm", "Intelij Idea", "Eclipse", "Sublime Text"],
     "social":{
         "linkedin":"http://www.linkedin.com/in/techblogger",
         "facebook":"http://www.facebook.com/SandeepTechTutorials",
